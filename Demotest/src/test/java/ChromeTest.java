@@ -5,5 +5,6 @@ public class ChromeTest {
 @Test
 public void ChromeTest() {                
 ChromeDriver driver=new ChromeDriver();
+driver.manage().window().maximize();
 }
 }
